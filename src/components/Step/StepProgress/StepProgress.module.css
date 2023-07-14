@@ -1,0 +1,37 @@
+.progress_container{
+    /* outline: blue solid 2px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    margin-right: 5px;
+}
+
+.done{
+    background-color: lightgray;
+}
+
+.text{
+    color: white;
+}
+
+.bar{
+    display: block;
+    width: 5rem;
+    height: 1px;
+    background-color: black;
+    margin: auto 1rem;
+}
