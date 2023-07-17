@@ -8,14 +8,16 @@ import { useState } from 'react'
 export function Item({item, setTotal}){
     const [count, setCount] = useState(0)
     const minusCount = ()=>{
-        setCount((prevCount) => (prevCount > 0 ? prevCount - 1 : prevCount))
-        setTotal(prevTotal => prevTotal - item.price)
+        if (count > 0) {
+            setCount(prevCount => prevCount - 1)
+            setTotal(prevTotal => prevTotal - item.price)
+    }
     }
     const plusCount = ()=>{
-        setCount((prevCount) => prevCount + 1)
+        setCount(prevCount => prevCount + 1)
         setTotal(prevTotal => prevTotal + item.price)
     }
-    
+
     return(
         <div className={styles.product_container} key={item.id}>
             <img src={item.img} alt={item.name} className={styles.img} />
