@@ -1,8 +1,7 @@
 ## ALPHA Shop
 ![](./public/sreenshot-2.png)
-按照進度，目前渲染出header, step1, cart, footer。待完成部分：
+按照進度，目前渲染出header, step1, cart, footer，並利用 props 去傳遞購物車數量與金額的改動。待完成部分：
 * 換頁邏輯
-* 購物車商品數量與總額變動邏輯
 ### 專案開啟
 1. 複製專案
 ```
