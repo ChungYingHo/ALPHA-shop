@@ -1,5 +1,20 @@
 .container{
-    /* outline: red solid 2px; */
-    width: 40rem;
-    margin: 0 auto;
+    /* outline: yellow solid 2px; */
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+}
+
+.title{
+    /* outline: green solid 3px; */
+    margin: 0;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info{
+    /* outline: blue solid 3px; */
+    height: 90%;
 }

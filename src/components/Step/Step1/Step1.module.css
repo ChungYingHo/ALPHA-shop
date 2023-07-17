@@ -18,7 +18,7 @@ form{
 }
 
 .input{
-    width: calc(100% - 1rem);
+    width: 100%;
     padding: 0.5rem;
     border-radius: 7px;
     border: black solid 1px;

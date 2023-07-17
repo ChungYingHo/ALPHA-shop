@@ -1,4 +1,4 @@
-import NextButton from '../../Button/NextButton'
+import NextButton from '../../Button/NextBtn'
 import styles from './ProgressControl.module.css'
 
 export default function ProgressControl(){

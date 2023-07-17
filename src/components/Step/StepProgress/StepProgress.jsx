@@ -3,7 +3,6 @@ import styles from './StepProgress.module.css'
 export default function StepProgress(){
     return(
         <section>
-            <h2>結帳</h2>
             <section className={styles.progress_container}>
                 <span className={styles.group}>
                     <span className={styles.icon}>

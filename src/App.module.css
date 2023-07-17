@@ -1,0 +1,8 @@
+.container{
+    outline: red solid 2px;
+    height: 85vh;
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
