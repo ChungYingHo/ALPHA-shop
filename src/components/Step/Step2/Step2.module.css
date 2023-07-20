@@ -1,3 +1,10 @@
+.container{
+    outline: red solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
 .form{
     display: flex;
     flex-direction: column;

@@ -25,7 +25,6 @@ export default function Step3(){
                         <input type="text" placeholder="123" />
                     </div>
                 </div>
-                
             </form>
         </section>
     )

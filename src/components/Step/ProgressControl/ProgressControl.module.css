@@ -1,5 +1,11 @@
-.container{
+.step1{
     margin-top: 1.5rem;
     display: flex;
     justify-content: flex-end;
+}
+
+.other_steps{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
 }

@@ -8,13 +8,13 @@
 .title{
     /* outline: green solid 3px; */
     margin: 0;
-    height: 15%;
+    height: 18%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .info{
-    /* outline: blue solid 3px; */
-    height: 85%;
+    outline: blue solid 3px;
+    height: 82%;
 }
