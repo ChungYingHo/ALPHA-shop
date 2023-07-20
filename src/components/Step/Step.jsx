@@ -12,7 +12,7 @@ export default function Step(){
     return(
         <section className={styles.container}>
             <h2 className={styles.title}>結帳</h2>
-            <div className={styles.progress}><StepProgress /></div>
+            <div className={styles.progress}><StepProgress page={page}/></div>
             <div className={styles.step}>
                 {page === 1 && <Step1 />}
                 {page === 2 && <Step2 />}

@@ -10,29 +10,23 @@
     align-items: center;
 }
 
-.icon{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 1.5rem;
-    margin-right: 5px;
+.label{
+    margin-left: 7px;
+    color: lightgray;
 }
 
-.done{
-    background-color: lightgray;
-}
-
-.text{
-    color: white;
+.label_done{
+    color: black;
 }
 
 .bar{
     display: block;
     width: 5rem;
     height: 1px;
-    background-color: black;
+    background-color: lightgray;
     margin: auto 1rem;
+}
+
+.bar_done{
+    background-color: black;
 }
