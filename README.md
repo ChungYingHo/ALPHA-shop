@@ -1,7 +1,8 @@
 ## ALPHA Shop
-![](./public/sreenshot-2.png)
-按照進度，目前渲染出header, step1, cart, footer，並利用 props 去傳遞購物車數量與金額的改動。待完成部分：
-* 換頁邏輯
+![](./public/sreenshot-3.png)
+目前已完成：
+* Step1 - 3 的換頁邏輯與渲染。
+* 調整前一版將購物車的狀態只設定在 item 的部分，改成在 Cart (父元件) 就設定狀態，並透過 props 傳遞給子元件。
 ### 專案開啟
 1. 複製專案
 ```
