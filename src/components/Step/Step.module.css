@@ -1,5 +1,5 @@
 .container{
-    outline: yellow solid 2px;
+    /* outline: yellow solid 2px; */
     box-sizing: border-box;
     width: 50%;
     height: 100%;
@@ -19,7 +19,7 @@
 }
 
 .step{
-    outline: green solid 3px;
+    /* outline: green solid 3px; */
     height: 70%;
 }
 
