@@ -7,18 +7,13 @@ import Footer from './components/Footer/Footer'
 function App() {
   return(
     <>
-      <header>
-        <Header />
-      </header>
+      <Header />
       
       <main>
         <Step />
         <Cart />
       </main>
-      
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   )
 }

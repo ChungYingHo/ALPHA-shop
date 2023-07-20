@@ -6,6 +6,7 @@ import {ReactComponent as Whatsapp} from '../../icons/whatsapp.svg'
 
 export default function Footer(){
     return(
+        <footer>
             <div className={styles.container}>
                 <div className={styles.logo}><Logo /></div>
                 <section className={styles.group}>
@@ -46,5 +47,7 @@ export default function Footer(){
                     </div>
                 </section>
             </div>
+        </footer>
+            
     )
 }

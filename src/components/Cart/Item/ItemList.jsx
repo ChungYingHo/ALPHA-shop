@@ -19,7 +19,7 @@ export function Item({item, setTotal}){
     }
 
     return(
-        <div className={styles.product_container} key={item.id}>
+        <div className={styles.product_container}>
             <img src={item.img} alt={item.name} className={styles.img} />
             <div className={styles.product_info}>
                 <div className={styles.left_area}>
