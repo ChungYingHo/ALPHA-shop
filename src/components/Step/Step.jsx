@@ -12,13 +12,13 @@ export default function Step(){
     return(
         <section className={styles.container}>
             <h2 className={styles.title}>結帳</h2>
-            <div className={styles.info}>
-                <StepProgress />
+            <div className={styles.progress}><StepProgress /></div>
+            <div className={styles.step}>
                 {page === 1 && <Step1 />}
                 {page === 2 && <Step2 />}
                 {page === 3 && <Step3 />}
-                <ProgressControl page={page} setPage={setPage}/> 
             </div>
+            <div className={styles.progress_control}><ProgressControl page={page} setPage={setPage}/></div>
         </section>
     )
 }

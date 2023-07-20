@@ -2,8 +2,7 @@ import styles from './StepProgress.module.css'
 
 export default function StepProgress(){
     return(
-        <section>
-            <section className={styles.progress_container}>
+            <section className={styles.container}>
                 <span className={styles.group}>
                     <span className={styles.icon}>
                         <span className={styles.text}>1</span>
@@ -25,6 +24,5 @@ export default function StepProgress(){
                 <span className={styles.label}>付款資訊</span>
                 </span>
           </section>
-        </section>
     )
 }

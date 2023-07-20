@@ -4,10 +4,10 @@ import countries from './country'
 export default function Step1(){
     return(
         <section className={styles.container}>
-            <h3>寄送地址</h3>
+            <h3 className={styles.title}>寄送地址</h3>
             <form className={styles.form}>
 
-                <div className={`${styles.group} ${styles.title}`}>
+                <div className={`${styles.group} ${styles.person_title}`}>
                     <div>稱謂</div>
                     <select className={styles.input}>
                         <option value="mr" selected>先生</option>

@@ -1,11 +1,14 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
 .step1{
-    margin-top: 1.5rem;
     display: flex;
     justify-content: flex-end;
 }
 
 .other_steps{
-    margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
 }

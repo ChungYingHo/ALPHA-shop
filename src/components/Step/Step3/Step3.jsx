@@ -3,7 +3,7 @@ import styles from './Step3.module.css'
 export default function Step3(){
     return(
         <section className={styles.container}>
-            <h3>付款資訊</h3>
+            <h3 className={styles.title}>付款資訊</h3>
             <form className={styles.form}>
                 <div className={styles.group}>
                     <div>持卡人姓名</div>
