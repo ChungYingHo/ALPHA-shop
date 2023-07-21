@@ -1,5 +1,5 @@
 
-import ItemList from "./Item/ItemList"
+import ItemList from "./ItemList/ItemList"
 import styles from './Cart.module.css'
 import { useState } from "react"
 import items from './Item/items'

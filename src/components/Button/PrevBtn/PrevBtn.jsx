@@ -1,5 +1,5 @@
-import {ReactComponent as LeftArrow} from '../../icons/left-arrow.svg'
-import styles from './Button.module.css'
+import {ReactComponent as LeftArrow} from '../../../icons/left-arrow.svg'
+import styles from './PrevBtn.module.css'
 
 export default function PrevBtn({onClick}){
     return(

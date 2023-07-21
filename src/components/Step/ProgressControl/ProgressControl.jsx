@@ -1,6 +1,6 @@
-import NextBtn from '../../Button/NextBtn'
-import PrevBtn from '../../Button/PrevBtn'
-import SubmitBtn from '../../Button/SubmitBtn'
+import NextBtn from '../../Button/NextBtn/NextBtn'
+import PrevBtn from '../../Button/PrevBtn/PrevBtn'
+import SubmitBtn from '../../Button/SubmitBtn/SubmitBtn'
 import styles from './ProgressControl.module.css'
 
 export default function ProgressControl({page, setPage}){

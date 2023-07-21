@@ -1,5 +1,5 @@
-import {ReactComponent as RightArrow} from '../../icons/right-arrow.svg'
-import styles from './Button.module.css'
+import {ReactComponent as RightArrow} from '../../../icons/right-arrow.svg'
+import styles from './NextBtn.module.css'
 
 export default function NextBtn({onClick}){
     return(
