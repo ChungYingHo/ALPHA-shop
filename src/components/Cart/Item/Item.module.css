@@ -32,6 +32,10 @@
     gap: 2rem;
 }
 
+.btn{
+    cursor: pointer;
+}
+
 .price{
     /* outline: yellow solid 2px; */
     padding-right: 1rem;
