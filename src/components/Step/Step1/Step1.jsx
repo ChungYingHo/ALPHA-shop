@@ -9,8 +9,8 @@ export default function Step1(){
 
                 <div className={`${styles.group} ${styles.person_title}`}>
                     <div>稱謂</div>
-                    <select className={styles.input}>
-                        <option value="mr" selected>先生</option>
+                    <select className={styles.input} defaultValue='mr'>
+                        <option value="mr">先生</option>
                         <option value="ms">女士</option>
                         <option value="mx">不明</option>
                     </select>
