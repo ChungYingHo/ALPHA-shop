@@ -1,14 +1,22 @@
 import styles from './Item.module.css'
 import {ReactComponent as Minus} from '../../../icons/minus.svg'
 import {ReactComponent as Plus} from '../../../icons/plus.svg'
+import { useContext } from "react"
+import CartContext from '../CartContext'
 
 
-export default function Item({item, setCart, cart}){
+export default function Item({item}){
+    // 引進資料狀態
+    const { cart, setCart } = useContext(CartContext)
     // 點擊按鈕更新購物車商品數量的函示
     const handleUpdated = amount=>{
         const updatedCart = cart.map(cartItem=>
             cartItem.id === item.id ? {...cartItem, quantity: cartItem.quantity + amount} : cartItem)
-        setCart(updatedCart)
+        if(amount === -1){
+            item.quantity > 0 && setCart(updatedCart)
+        } else{
+            setCart(updatedCart)
+        }
     }
 
 
@@ -20,7 +28,7 @@ export default function Item({item, setCart, cart}){
                     <span className={styles.product_name}>{item.name}</span>
                     <div className={styles.product_controller}>
                         {/* 商品數量大於0才可以減1 */}
-                        <Minus className={styles.btn} onClick={()=>item.quantity > 0 && handleUpdated(-1)}/>
+                        <Minus className={styles.btn} onClick={()=>handleUpdated(-1)}/>
                         <span className={styles.product_count}>{item.quantity}</span>
                         <Plus className={styles.btn} onClick={()=>handleUpdated(1)}/>
                     </div>
