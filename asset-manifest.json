@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ALPHA-shop/static/css/main.3ca021d7.css",
+    "main.js": "/ALPHA-shop/static/js/main.e2b1dc0a.js",
+    "static/js/787.7315e2ba.chunk.js": "/ALPHA-shop/static/js/787.7315e2ba.chunk.js",
+    "static/media/logo.svg": "/ALPHA-shop/static/media/logo.92cbc739e2259460fe369c9d36e2cbcf.svg",
+    "static/media/ig.svg": "/ALPHA-shop/static/media/ig.20eb8293daf00e3617feb0317aeeface.svg",
+    "static/media/whatsapp.svg": "/ALPHA-shop/static/media/whatsapp.b86743a346cad3d80f0a900e563df1b5.svg",
+    "static/media/cart.svg": "/ALPHA-shop/static/media/cart.929eedca13d428fa10ef1714a3f4b3e9.svg",
+    "static/media/plus.svg": "/ALPHA-shop/static/media/plus.13db8561cbaba909412cfe63ebdd2472.svg",
+    "static/media/search.svg": "/ALPHA-shop/static/media/search.527fc0578cfb181a20f27869196c2465.svg",
+    "index.html": "/ALPHA-shop/index.html",
+    "static/media/left-arrow.svg": "/ALPHA-shop/static/media/left-arrow.c0b5aa66fa23a5da01ecc4dd4388e6bc.svg",
+    "static/media/right-arrow.svg": "/ALPHA-shop/static/media/right-arrow.d6cf34897710db34f41eb0d73f3d90ae.svg",
+    "static/media/minus.svg": "/ALPHA-shop/static/media/minus.176888b0f745257217cd62c9b53b76b1.svg",
+    "static/media/fb.svg": "/ALPHA-shop/static/media/fb.0d0bad58f600c144e570e1705e866850.svg",
+    "static/media/moon.svg": "/ALPHA-shop/static/media/moon.b9719b52d8acca2f8867e55378a2fd36.svg",
+    "static/media/complete.svg": "/ALPHA-shop/static/media/complete.69659a476c8820a4c87c3a328cdc8834.svg",
+    "main.3ca021d7.css.map": "/ALPHA-shop/static/css/main.3ca021d7.css.map",
+    "main.e2b1dc0a.js.map": "/ALPHA-shop/static/js/main.e2b1dc0a.js.map",
+    "787.7315e2ba.chunk.js.map": "/ALPHA-shop/static/js/787.7315e2ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ca021d7.css",
+    "static/js/main.e2b1dc0a.js"
+  ]
+}
