@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ALPHA-shop/static/css/main.3ca021d7.css",
-    "main.js": "/ALPHA-shop/static/js/main.e2b1dc0a.js",
+    "main.css": "/ALPHA-shop/static/css/main.ed87abd4.css",
+    "main.js": "/ALPHA-shop/static/js/main.c4b75f52.js",
     "static/js/787.7315e2ba.chunk.js": "/ALPHA-shop/static/js/787.7315e2ba.chunk.js",
     "static/media/logo.svg": "/ALPHA-shop/static/media/logo.92cbc739e2259460fe369c9d36e2cbcf.svg",
     "static/media/ig.svg": "/ALPHA-shop/static/media/ig.20eb8293daf00e3617feb0317aeeface.svg",
@@ -16,12 +16,12 @@
     "static/media/fb.svg": "/ALPHA-shop/static/media/fb.0d0bad58f600c144e570e1705e866850.svg",
     "static/media/moon.svg": "/ALPHA-shop/static/media/moon.b9719b52d8acca2f8867e55378a2fd36.svg",
     "static/media/complete.svg": "/ALPHA-shop/static/media/complete.69659a476c8820a4c87c3a328cdc8834.svg",
-    "main.3ca021d7.css.map": "/ALPHA-shop/static/css/main.3ca021d7.css.map",
-    "main.e2b1dc0a.js.map": "/ALPHA-shop/static/js/main.e2b1dc0a.js.map",
+    "main.ed87abd4.css.map": "/ALPHA-shop/static/css/main.ed87abd4.css.map",
+    "main.c4b75f52.js.map": "/ALPHA-shop/static/js/main.c4b75f52.js.map",
     "787.7315e2ba.chunk.js.map": "/ALPHA-shop/static/js/787.7315e2ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ca021d7.css",
-    "static/js/main.e2b1dc0a.js"
+    "static/css/main.ed87abd4.css",
+    "static/js/main.c4b75f52.js"
   ]
 }
