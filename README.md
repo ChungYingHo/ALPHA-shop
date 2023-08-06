@@ -1,5 +1,5 @@
 # ALPHA Shop
-這是一個模擬電商購物車結帳頁面的 React 專案。
+這是一個模擬電商購物車結帳頁面的 React 專案。您可以在下列網址瀏覽專案成品展示：**https://chungyingho.github.io/ALPHA-shop/**
 ### 專案示意圖 (Diagram)
 ![](./public/sreenshot-3.png)
 ### 功能列表 (Features)
